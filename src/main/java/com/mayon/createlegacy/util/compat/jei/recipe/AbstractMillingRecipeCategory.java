@@ -1,6 +1,6 @@
-package com.siepert.createlegacy.util.compat.jei.recipe;
+package com.mayon.createlegacy.util.compat.jei.recipe;
 
-import com.siepert.createlegacy.util.Reference;
+import com.mayon.createlegacy.util.Reference;
 import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.gui.IDrawableStatic;
 import mezz.jei.api.recipe.IRecipeCategory;

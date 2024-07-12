@@ -1,10 +1,10 @@
-package com.siepert.createlegacy.util.compat.jei.recipe;
+package com.mayon.createlegacy.util.compat.jei.recipe;
 
 import com.google.common.collect.Lists;
-import com.siepert.createlegacy.util.handlers.recipes.CompactingRecipes;
-import com.siepert.createlegacy.util.handlers.recipes.MillingRecipes;
-import com.siepert.createlegacy.util.handlers.recipes.PressingRecipes;
-import com.siepert.createlegacy.util.handlers.recipes.WashingRecipes;
+import com.mayon.createlegacy.util.handlers.recipes.CompactingRecipes;
+import com.mayon.createlegacy.util.handlers.recipes.MillingRecipes;
+import com.mayon.createlegacy.util.handlers.recipes.PressingRecipes;
+import com.mayon.createlegacy.util.handlers.recipes.WashingRecipes;
 import mezz.jei.api.IJeiHelpers;
 import mezz.jei.api.recipe.IStackHelper;
 import net.minecraft.item.ItemStack;

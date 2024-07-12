@@ -1,6 +1,6 @@
-package com.siepert.createlegacy.proxy;
+package com.mayon.createlegacy.proxy;
 
-import com.siepert.createlegacy.util.Reference;
+import com.mayon.createlegacy.util.Reference;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;

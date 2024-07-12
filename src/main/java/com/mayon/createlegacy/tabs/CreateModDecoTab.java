@@ -1,6 +1,6 @@
-package com.siepert.createlegacy.tabs;
+package com.mayon.createlegacy.tabs;
 
-import com.siepert.createlegacy.mainRegistry.ModBlocks;
+import com.mayon.createlegacy.mainRegistry.ModBlocks;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 

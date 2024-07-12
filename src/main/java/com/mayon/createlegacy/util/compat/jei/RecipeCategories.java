@@ -1,6 +1,6 @@
-package com.siepert.createlegacy.util.compat.jei;
+package com.mayon.createlegacy.util.compat.jei;
 
-import com.siepert.createlegacy.util.Reference;
+import com.mayon.createlegacy.util.Reference;
 
 public class RecipeCategories {
     public static final String WASHING_BY_FAN = Reference.MOD_ID + ".washing_by_fan";

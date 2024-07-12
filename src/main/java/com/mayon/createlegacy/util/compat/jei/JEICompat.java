@@ -1,7 +1,7 @@
-package com.siepert.createlegacy.util.compat.jei;
+package com.mayon.createlegacy.util.compat.jei;
 
-import com.siepert.createlegacy.mainRegistry.ModBlocks;
-import com.siepert.createlegacy.util.compat.jei.recipe.*;
+import com.mayon.createlegacy.mainRegistry.ModBlocks;
+import com.mayon.createlegacy.util.compat.jei.recipe.*;
 import mezz.jei.api.*;
 import mezz.jei.api.ingredients.IIngredientRegistry;
 import mezz.jei.api.recipe.IRecipeCategoryRegistration;

@@ -1,9 +1,9 @@
-package com.siepert.createlegacy.util.handlers.recipes;
+package com.mayon.createlegacy.util.handlers.recipes;
 
 import com.google.common.collect.Maps;
-import com.siepert.createlegacy.CreateLegacy;
-import com.siepert.createlegacy.blocks.kinetic.BlockBlazeBurner;
-import com.siepert.createlegacy.mainRegistry.ModItems;
+import com.mayon.createlegacy.CreateLegacy;
+import com.mayon.createlegacy.blocks.kinetic.BlockBlazeBurner;
+import com.mayon.createlegacy.mainRegistry.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;

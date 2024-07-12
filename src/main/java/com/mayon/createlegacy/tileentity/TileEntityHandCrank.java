@@ -1,7 +1,7 @@
-package com.siepert.createlegacy.tileentity;
+package com.mayon.createlegacy.tileentity;
 
-import com.siepert.createlegacy.blocks.kinetic.BlockHandCrank;
-import com.siepert.createapi.IKineticActor;
+import com.mayon.createlegacy.blocks.kinetic.BlockHandCrank;
+import com.mayon.createapi.IKineticActor;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.nbt.NBTTagCompound;
@@ -12,8 +12,8 @@ import net.minecraft.util.math.BlockPos;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.siepert.createlegacy.blocks.kinetic.BlockHandCrank.FACING;
-import static com.siepert.createlegacy.blocks.kinetic.BlockHandCrank.ACTIVATED;
+import static com.mayon.createlegacy.blocks.kinetic.BlockHandCrank.FACING;
+import static com.mayon.createlegacy.blocks.kinetic.BlockHandCrank.ACTIVATED;
 
 public class TileEntityHandCrank extends TileEntity implements ITickable {
     private int cooldownTicks;

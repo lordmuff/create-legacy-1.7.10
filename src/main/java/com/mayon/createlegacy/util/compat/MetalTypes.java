@@ -1,4 +1,4 @@
-package com.siepert.createlegacy.util.compat;
+package com.mayon.createlegacy.util.compat;
 
 import java.util.ArrayList;
 import java.util.List;

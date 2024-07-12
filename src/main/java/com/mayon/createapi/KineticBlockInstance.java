@@ -1,4 +1,4 @@
-package com.siepert.createapi;
+package com.mayon.createapi;
 
 import net.minecraft.util.math.BlockPos;
 

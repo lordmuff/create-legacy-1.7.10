@@ -1,9 +1,9 @@
-package com.siepert.createlegacy.tileentity;
+package com.mayon.createlegacy.tileentity;
 
-import com.siepert.createapi.IKineticTE;
-import com.siepert.createlegacy.util.Reference;
-import com.siepert.createlegacy.util.handlers.ModSoundHandler;
-import com.siepert.createlegacy.util.handlers.recipes.MillingRecipes;
+import com.mayon.createapi.IKineticTE;
+import com.mayon.createlegacy.util.Reference;
+import com.mayon.createlegacy.util.handlers.ModSoundHandler;
+import com.mayon.createlegacy.util.handlers.recipes.MillingRecipes;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;

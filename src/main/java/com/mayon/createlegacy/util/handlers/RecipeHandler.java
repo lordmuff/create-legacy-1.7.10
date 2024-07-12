@@ -1,15 +1,15 @@
-package com.siepert.createlegacy.util.handlers;
+package com.mayon.createlegacy.util.handlers;
 
-import com.siepert.createlegacy.CreateLegacy;
-import com.siepert.createlegacy.blocks.kinetic.BlockBlazeBurner;
-import com.siepert.createlegacy.mainRegistry.ModBlocks;
-import com.siepert.createlegacy.mainRegistry.ModItems;
-import com.siepert.createlegacy.util.Reference;
-import com.siepert.createlegacy.util.compat.MetalTypes;
-import com.siepert.createlegacy.util.handlers.recipes.CompactingRecipes;
-import com.siepert.createlegacy.util.handlers.recipes.MillingRecipes;
-import com.siepert.createlegacy.util.handlers.recipes.PressingRecipes;
-import com.siepert.createlegacy.util.handlers.recipes.WashingRecipes;
+import com.mayon.createlegacy.CreateLegacy;
+import com.mayon.createlegacy.blocks.kinetic.BlockBlazeBurner;
+import com.mayon.createlegacy.mainRegistry.ModBlocks;
+import com.mayon.createlegacy.mainRegistry.ModItems;
+import com.mayon.createlegacy.util.Reference;
+import com.mayon.createlegacy.util.compat.MetalTypes;
+import com.mayon.createlegacy.util.handlers.recipes.CompactingRecipes;
+import com.mayon.createlegacy.util.handlers.recipes.MillingRecipes;
+import com.mayon.createlegacy.util.handlers.recipes.PressingRecipes;
+import com.mayon.createlegacy.util.handlers.recipes.WashingRecipes;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;

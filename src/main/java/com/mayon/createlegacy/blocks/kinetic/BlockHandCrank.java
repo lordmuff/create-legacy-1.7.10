@@ -1,12 +1,12 @@
-package com.siepert.createlegacy.blocks.kinetic;
+package com.mayon.createlegacy.blocks.kinetic;
 
-import com.siepert.createlegacy.CreateLegacy;
-import com.siepert.createlegacy.mainRegistry.ModBlocks;
-import com.siepert.createlegacy.mainRegistry.ModItems;
-import com.siepert.createlegacy.tileentity.TileEntityHandCrank;
-import com.siepert.createlegacy.util.IHasModel;
-import com.siepert.createapi.IKineticActor;
-import com.siepert.createlegacy.util.handlers.ModSoundHandler;
+import com.mayon.createlegacy.CreateLegacy;
+import com.mayon.createlegacy.mainRegistry.ModBlocks;
+import com.mayon.createlegacy.mainRegistry.ModItems;
+import com.mayon.createlegacy.tileentity.TileEntityHandCrank;
+import com.mayon.createlegacy.util.IHasModel;
+import com.mayon.createapi.IKineticActor;
+import com.mayon.createlegacy.util.handlers.ModSoundHandler;
 import net.minecraft.block.Block;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.SoundType;

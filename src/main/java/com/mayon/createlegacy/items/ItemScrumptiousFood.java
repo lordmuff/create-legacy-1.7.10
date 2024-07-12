@@ -1,9 +1,9 @@
-package com.siepert.createlegacy.items;
+package com.mayon.createlegacy.items;
 
-import com.siepert.createlegacy.CreateLegacy;
-import com.siepert.createlegacy.mainRegistry.ModItems;
-import com.siepert.createlegacy.util.IHasModel;
-import com.siepert.createlegacy.util.IMetaName;
+import com.mayon.createlegacy.CreateLegacy;
+import com.mayon.createlegacy.mainRegistry.ModItems;
+import com.mayon.createlegacy.util.IHasModel;
+import com.mayon.createlegacy.util.IMetaName;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.EnumAction;

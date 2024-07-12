@@ -1,4 +1,4 @@
-package com.siepert.createlegacy.items;
+package com.mayon.createlegacy.items;
 
 import net.minecraft.item.Item;
 /**...What does this even do?? */

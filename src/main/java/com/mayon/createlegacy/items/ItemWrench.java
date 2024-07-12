@@ -1,11 +1,11 @@
-package com.siepert.createlegacy.items;
+package com.mayon.createlegacy.items;
 
-import com.siepert.createlegacy.CreateLegacy;
-import com.siepert.createlegacy.mainRegistry.ModItems;
-import com.siepert.createlegacy.util.IHasModel;
-import com.siepert.createapi.IWrenchable;
-import com.siepert.createlegacy.util.Reference;
-import com.siepert.createlegacy.util.handlers.ModSoundHandler;
+import com.mayon.createlegacy.CreateLegacy;
+import com.mayon.createlegacy.mainRegistry.ModItems;
+import com.mayon.createlegacy.util.IHasModel;
+import com.mayon.createapi.IWrenchable;
+import com.mayon.createlegacy.util.Reference;
+import com.mayon.createlegacy.util.handlers.ModSoundHandler;
 import net.minecraft.block.Block;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.item.EntityItem;

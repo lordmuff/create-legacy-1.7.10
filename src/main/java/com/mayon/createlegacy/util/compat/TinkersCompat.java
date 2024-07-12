@@ -1,7 +1,7 @@
-package com.siepert.createlegacy.util.compat;
+package com.mayon.createlegacy.util.compat;
 
-import com.siepert.createlegacy.CreateLegacy;
-import com.siepert.createlegacy.util.handlers.recipes.CompactingRecipes;
+import com.mayon.createlegacy.CreateLegacy;
+import com.mayon.createlegacy.util.handlers.recipes.CompactingRecipes;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

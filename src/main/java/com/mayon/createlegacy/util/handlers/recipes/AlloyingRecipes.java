@@ -1,7 +1,7 @@
-package com.siepert.createlegacy.util.handlers.recipes;
+package com.mayon.createlegacy.util.handlers.recipes;
 
 import com.google.common.collect.Maps;
-import com.siepert.createlegacy.util.handlers.StackSet;
+import com.mayon.createlegacy.util.handlers.StackSet;
 import net.minecraft.item.ItemStack;
 
 import java.util.Map;

@@ -1,6 +1,6 @@
-package com.siepert.createlegacy.mainRegistry;
+package com.mayon.createlegacy.mainRegistry;
 
-import com.siepert.createlegacy.items.*;
+import com.mayon.createlegacy.items.*;
 import net.minecraft.item.Item;
 
 import java.util.ArrayList;

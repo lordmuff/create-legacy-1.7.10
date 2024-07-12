@@ -1,6 +1,6 @@
-package com.siepert.createlegacy.util.handlers.recipes;
+package com.mayon.createlegacy.util.handlers.recipes;
 
-import com.siepert.createlegacy.blocks.kinetic.BlockBlazeBurner;
+import com.mayon.createlegacy.blocks.kinetic.BlockBlazeBurner;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;

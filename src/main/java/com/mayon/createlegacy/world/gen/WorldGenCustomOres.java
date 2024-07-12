@@ -1,18 +1,16 @@
-package com.siepert.createlegacy.world.gen;
+package com.mayon.createlegacy.world.gen;
 
-import com.siepert.createlegacy.blocks.BlockOre;
-import com.siepert.createlegacy.blocks.BlockStone;
-import com.siepert.createlegacy.mainRegistry.ModBlocks;
-import com.siepert.createlegacy.util.handlers.EnumHandler;
-import net.minecraft.block.state.pattern.BlockMatcher;
+import com.mayon.createlegacy.blocks.BlockOre;
+import com.mayon.createlegacy.blocks.BlockStone;
+import com.mayon.createlegacy.mainRegistry.ModBlocks;
+import com.mayon.createlegacy.util.handlers.EnumHandler;
 import net.minecraft.init.Blocks;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
-import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 import net.minecraft.world.gen.feature.WorldGenerator;
-import net.minecraftforge.fml.common.IWorldGenerator;
+import cpw.mods.fml.common.IWorldGenerator;
+
 
 import java.util.Random;
 
@@ -36,30 +34,29 @@ public class WorldGenCustomOres implements IWorldGenerator {
                 6, BlockMatcher.forBlock(Blocks.STONE));
 
         stone_calcite = new WorldGenMinable(ModBlocks.STONE.getDefaultState().withProperty(BlockStone.VARIANT, EnumHandler.StoneEnumType.CALCITE),
-                40, BlockMatcher.forBlock(Blocks.STONE));
+                40, BlockMatcher.forBlock(Blocks.stone));
         stone_tuff = new WorldGenMinable(ModBlocks.STONE.getDefaultState().withProperty(BlockStone.VARIANT, EnumHandler.StoneEnumType.CALCITE),
-                40, BlockMatcher.forBlock(Blocks.STONE));
+                40, BlockMatcher.forBlock(Blocks.stone));
 
         stone_asurine = new WorldGenMinable(ModBlocks.STONE.getDefaultState().withProperty(BlockStone.VARIANT, EnumHandler.StoneEnumType.ASURINE),
-                30, BlockMatcher.forBlock(Blocks.STONE));
+                30, BlockMatcher.forBlock(Blocks.stone));
         stone_crimsite = new WorldGenMinable(ModBlocks.STONE.getDefaultState().withProperty(BlockStone.VARIANT, EnumHandler.StoneEnumType.CRIMSITE),
-                30, BlockMatcher.forBlock(Blocks.STONE));
+                30, BlockMatcher.forBlock(Blocks.stone));
         stone_limestone = new WorldGenMinable(ModBlocks.STONE.getDefaultState().withProperty(BlockStone.VARIANT, EnumHandler.StoneEnumType.LIMESTONE),
-                30, BlockMatcher.forBlock(Blocks.STONE));
+                30, BlockMatcher.forBlock(Blocks.stone));
         stone_ochrum = new WorldGenMinable(ModBlocks.STONE.getDefaultState().withProperty(BlockStone.VARIANT, EnumHandler.StoneEnumType.OCHRUM),
-                30, BlockMatcher.forBlock(Blocks.STONE));
+                30, BlockMatcher.forBlock(Blocks.stone));
         stone_scorchia = new WorldGenMinable(ModBlocks.STONE.getDefaultState().withProperty(BlockStone.VARIANT, EnumHandler.StoneEnumType.SCORCHIA),
-                30, BlockMatcher.forBlock(Blocks.NETHERRACK));
+                30, BlockMatcher.forBlock(Blocks.netherrack));
         stone_scoria = new WorldGenMinable(ModBlocks.STONE.getDefaultState().withProperty(BlockStone.VARIANT, EnumHandler.StoneEnumType.SCORIA),
-                30, BlockMatcher.forBlock(Blocks.NETHERRACK));
+                30, BlockMatcher.forBlock(Blocks.netherrack));
         stone_veridium = new WorldGenMinable(ModBlocks.STONE.getDefaultState().withProperty(BlockStone.VARIANT, EnumHandler.StoneEnumType.VERIDIUM),
-                30, BlockMatcher.forBlock(Blocks.STONE));
+                30, BlockMatcher.forBlock(Blocks.stone));
     }
 
     @Override
-    public void generate(Random random, int chunkX, int chunkZ, World world,
-                         IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
-        switch (world.provider.getDimension()) {
+    public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider) {
+        switch (world.provider.dimensionId) {
             case -1:
                 runGenerator(stone_scoria, world, random, chunkX, chunkZ, 3, 10, 70);
                 runGenerator(stone_scorchia, world, random, chunkX, chunkZ, 3, 60, 110);
@@ -107,4 +104,5 @@ public class WorldGenCustomOres implements IWorldGenerator {
                               int chance, int minHeight, int maxHeight) {
         runGenerator(gen, world, random, chunkX, chunkZ, chance, minHeight, maxHeight, 1);
     }
+
 }

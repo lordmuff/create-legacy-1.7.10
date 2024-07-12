@@ -1,4 +1,4 @@
-package com.siepert.createlegacy.proxy;
+package com.mayon.createlegacy.proxy;
 
 import net.minecraft.item.Item;
 

@@ -1,4 +1,4 @@
-package com.siepert.createlegacy.util;
+package com.mayon.createlegacy.util;
 
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.IStringSerializable;

@@ -1,4 +1,4 @@
-package com.siepert.createlegacy.util;
+package com.mayon.createlegacy.util;
 
 public class TimedLucky {
     private long seed;

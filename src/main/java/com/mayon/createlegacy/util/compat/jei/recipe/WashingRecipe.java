@@ -1,4 +1,4 @@
-package com.siepert.createlegacy.util.compat.jei.recipe;
+package com.mayon.createlegacy.util.compat.jei.recipe;
 
 import mezz.jei.api.ingredients.IIngredients;
 import mezz.jei.api.recipe.IRecipeWrapper;

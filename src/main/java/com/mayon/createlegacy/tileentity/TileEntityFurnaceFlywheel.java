@@ -1,9 +1,9 @@
-package com.siepert.createlegacy.tileentity;
+package com.mayon.createlegacy.tileentity;
 
-import com.siepert.createlegacy.blocks.kinetic.BlockFurnaceEngine;
-import com.siepert.createlegacy.mainRegistry.ModBlocks;
-import com.siepert.createapi.IKineticActor;
-import com.siepert.createlegacy.util.Reference;
+import com.mayon.createlegacy.blocks.kinetic.BlockFurnaceEngine;
+import com.mayon.createlegacy.mainRegistry.ModBlocks;
+import com.mayon.createapi.IKineticActor;
+import com.mayon.createlegacy.util.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
@@ -18,7 +18,7 @@ import net.minecraft.util.math.BlockPos;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.siepert.createlegacy.blocks.kinetic.BlockFurnaceEngine.*;
+import static com.mayon.createlegacy.blocks.kinetic.BlockFurnaceEngine.*;
 
 public class TileEntityFurnaceFlywheel extends TileEntity implements ITickable {
     private static final int SMOKE_MIN = 5;

@@ -1,13 +1,13 @@
-package com.siepert.createlegacy.mainRegistry;
+package com.mayon.createlegacy.mainRegistry;
 
-import com.siepert.createlegacy.blocks.BlockCasing;
-import com.siepert.createlegacy.blocks.BlockMaterialStorage;
-import com.siepert.createlegacy.blocks.BlockOre;
-import com.siepert.createlegacy.blocks.BlockStone;
-import com.siepert.createlegacy.blocks.decoration.*;
-import com.siepert.createlegacy.blocks.kinetic.*;
-import com.siepert.createlegacy.blocks.logic.BlockScheduleCook;
-import com.siepert.createlegacy.blocks.logic.BlockScheduleWash;
+import com.mayon.createlegacy.blocks.BlockCasing;
+import com.mayon.createlegacy.blocks.BlockMaterialStorage;
+import com.mayon.createlegacy.blocks.BlockOre;
+import com.mayon.createlegacy.blocks.BlockStone;
+import com.mayon.createlegacy.blocks.decoration.*;
+import com.mayon.createlegacy.blocks.kinetic.*;
+import com.mayon.createlegacy.blocks.logic.BlockScheduleCook;
+import com.mayon.createlegacy.blocks.logic.BlockScheduleWash;
 import net.minecraft.block.Block;
 
 import java.util.ArrayList;

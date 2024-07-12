@@ -1,7 +1,7 @@
-package com.siepert.createlegacy.blocks.item;
+package com.mayon.createlegacy.blocks.item;
 
-import com.siepert.createlegacy.mainRegistry.ModBlocks;
-import com.siepert.createlegacy.util.IMetaName;
+import com.mayon.createlegacy.mainRegistry.ModBlocks;
+import com.mayon.createlegacy.util.IMetaName;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.monster.EntityBlaze;

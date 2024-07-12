@@ -1,12 +1,12 @@
-package com.siepert.createlegacy.blocks;
+package com.mayon.createlegacy.blocks;
 
-import com.siepert.createlegacy.CreateLegacy;
-import com.siepert.createlegacy.blocks.item.ItemBlockVariants;
-import com.siepert.createlegacy.mainRegistry.ModBlocks;
-import com.siepert.createlegacy.mainRegistry.ModItems;
-import com.siepert.createlegacy.util.IHasModel;
-import com.siepert.createlegacy.util.IMetaName;
-import com.siepert.createlegacy.util.handlers.EnumHandler;
+import com.mayon.createlegacy.CreateLegacy;
+import com.mayon.createlegacy.blocks.item.ItemBlockVariants;
+import com.mayon.createlegacy.mainRegistry.ModBlocks;
+import com.mayon.createlegacy.mainRegistry.ModItems;
+import com.mayon.createlegacy.util.IHasModel;
+import com.mayon.createlegacy.util.IMetaName;
+import com.mayon.createlegacy.util.handlers.EnumHandler;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;

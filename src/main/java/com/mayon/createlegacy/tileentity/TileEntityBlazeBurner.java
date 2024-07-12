@@ -1,7 +1,7 @@
-package com.siepert.createlegacy.tileentity;
+package com.mayon.createlegacy.tileentity;
 
-import com.siepert.createlegacy.blocks.kinetic.BlockBlazeBurner;
-import com.siepert.createlegacy.util.Reference;
+import com.mayon.createlegacy.blocks.kinetic.BlockBlazeBurner;
+import com.mayon.createlegacy.util.Reference;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.nbt.NBTTagCompound;

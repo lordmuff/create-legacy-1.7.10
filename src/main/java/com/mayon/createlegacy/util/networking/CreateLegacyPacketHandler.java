@@ -1,6 +1,6 @@
-package com.siepert.createlegacy.util.networking;
+package com.mayon.createlegacy.util.networking;
 
-import com.siepert.createlegacy.util.Reference;
+import com.mayon.createlegacy.util.Reference;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 

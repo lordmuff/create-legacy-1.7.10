@@ -1,6 +1,6 @@
-package com.siepert.createlegacy.tileentity;
+package com.mayon.createlegacy.tileentity;
 
-import com.siepert.createapi.IKineticActor;
+import com.mayon.createapi.IKineticActor;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.tileentity.TileEntity;
@@ -10,7 +10,7 @@ import net.minecraft.util.math.BlockPos;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.siepert.createlegacy.blocks.kinetic.BlockCreativeMotor.FACING;
+import static com.mayon.createlegacy.blocks.kinetic.BlockCreativeMotor.FACING;
 
 public class TileEntityCreativeMotor extends TileEntity implements ITickable {
     @Override

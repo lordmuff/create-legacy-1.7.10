@@ -1,6 +1,6 @@
-package com.siepert.createlegacy.util.handlers;
+package com.mayon.createlegacy.util.handlers;
 
-import com.siepert.createapi.Spaghetti;
+import com.mayon.createapi.Spaghetti;
 import net.minecraft.util.IStringSerializable;
 
 /**A main class holding most of the enums used for block variants.

@@ -1,4 +1,4 @@
-package com.siepert.createapi;
+package com.mayon.createapi;
 
 public interface IKineticTE {
     int getConsumedSU();

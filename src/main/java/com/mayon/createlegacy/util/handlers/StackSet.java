@@ -1,4 +1,4 @@
-package com.siepert.createlegacy.util.handlers;
+package com.mayon.createlegacy.util.handlers;
 
 import net.minecraft.item.ItemStack;
 

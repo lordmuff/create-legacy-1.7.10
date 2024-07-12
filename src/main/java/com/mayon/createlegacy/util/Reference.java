@@ -1,6 +1,6 @@
-package com.siepert.createlegacy.util;
+package com.mayon.createlegacy.util;
 
-import com.siepert.createlegacy.mainRegistry.ModBlocks;
+import com.mayon.createlegacy.mainRegistry.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 
@@ -14,8 +14,8 @@ public class Reference {
     public static final String MOD_ID = "create"; //Mod ID; will never change
     public static final String NAME = "Create Legacy"; //Mod name; will never change
     public static final String VERSION = "24w28a"; //The version, changes each update in this fashion: rework.major.minor.patch
-    public static final String CLIENT_PROXY = "com.siepert.createlegacy.proxy.ClientProxy"; //Client proxy class
-    public static final String COMMON_PROXY = "com.siepert.createlegacy.proxy.CommonProxy"; //Common proxy class
+    public static final String CLIENT_PROXY = "com.mayon.createlegacy.proxy.ClientProxy"; //Client proxy class
+    public static final String COMMON_PROXY = "com.mayon.createlegacy.proxy.CommonProxy"; //Common proxy class
 
     public static String WIP_TT = "[WIP - DO NOT USE]";
 

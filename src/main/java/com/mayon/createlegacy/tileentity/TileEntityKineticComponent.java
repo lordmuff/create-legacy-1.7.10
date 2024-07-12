@@ -1,4 +1,4 @@
-package com.siepert.createlegacy.tileentity;
+package com.mayon.createlegacy.tileentity;
 
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
